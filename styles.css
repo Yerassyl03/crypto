@@ -31,16 +31,9 @@ h1 {
 
 .score-board {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 20px;
     font-size: 1.5rem;
-}
-
-.badge {
-    background-color: #4CAF50;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
 .choices {
@@ -52,6 +45,7 @@ h1 {
 .choice {
     cursor: pointer;
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .choice img {
@@ -62,8 +56,8 @@ h1 {
     transform: scale(1.1);
 }
 
-.result p {
-    margin: 20px 0;
-    font-size: 1.2rem;
+.choice p {
+    margin-top: 10px;
+    font-size: 1rem;
     color: #555;
 }
